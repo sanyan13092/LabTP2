@@ -9,6 +9,7 @@ int main()
 	bool flag = true;
 	while (flag)
 	{
+
 		system("cls");
 		std::cout << main_menu;
 		std::cin >> button;
