@@ -6,7 +6,7 @@ public:
 	Keeper();
 	~Keeper();
 	Keeper(SIGN* obj);
-	void Sort();//Функция сортировки по алфавитному порядку
+	void Sort();//Функция сортировки дате рождения
 	void Push();//добавление объекта
 	void Pop();//удаление объекта
 	void Show();//вывод на экран

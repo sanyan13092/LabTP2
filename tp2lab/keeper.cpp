@@ -20,7 +20,7 @@ Keeper::Keeper(SIGN* obj)
 	++size;
 }
 
-void Keeper::Push()
+void Keeper::Push() //добавление
 {
 	SIGN* temp = new SIGN[size + 1];
 	for (int i = 0; i < size; ++i)
@@ -33,7 +33,7 @@ void Keeper::Push()
 	std::cout << "\nAdd new object\n";
 }
 
-void Keeper::Pop()
+void Keeper::Pop() //удаление
 {
 	try
 	{
